@@ -3,6 +3,7 @@ How many taxi trips were there on January 15?
 
 ANSWER = 53024
 
+# EXECUTED CODE
 SELECT 
   CAST(tpep_pickup_datetime AS DATE) as "day",
   count(1) as "count" 
@@ -83,7 +84,6 @@ Enter two zone names separated by a slashFor example:"Jamaica Bay / Clinton East
 ANSWER = Alphabet City/Unknown
 
 # EXECUTED CODE
-
 SELECT 
   CAST(tpep_pickup_datetime AS DATE) AS "day",
   count(1) as "count",
