@@ -1,7 +1,7 @@
 #Question 3: Count records *
-How many taxi trips were there on January 15?
+#How many taxi trips were there on January 15?
 
-ANSWER = 53024
+#ANSWER = 53024
 
 # EXECUTED CODE
 SELECT 
@@ -24,9 +24,9 @@ LIMIT 1;
 ---------------------------------------------------------------------------------------------------------------------
 
 #Question 4: Largest tip for each day *
-On which day it was the largest tip in January? (note: it's not a typo, it's "tip", not "trip")
+#On which day it was the largest tip in January? (note: it's not a typo, it's "tip", not "trip")
 
-ANSWER = 2021-01-20
+#ANSWER = 2021-01-20
 
 # EXECUTED CODE
 SELECT 
@@ -41,11 +41,11 @@ GROUP BY
   ORDER BY "tip" DESC
 LIMIT 1;
 -------------------------------------------------------------------------------------------------------------------  
-Question 5: Most popular destination *
-What was the most popular destination for passengers picked up in central park on January 14?
-Enter the zone name (not id). If the zone name is unknown (missing), write "Unknown"
+#Question 5: Most popular destination *
+#What was the most popular destination for passengers picked up in central park on January 14?
+#Enter the zone name (not id). If the zone name is unknown (missing), write "Unknown"
 
-ANSWER = Upper East Side North
+#ANSWER = Upper East Side North
 
 # EXECUTED CODE
 SELECT
@@ -76,12 +76,12 @@ GROUP BY
   ORDER BY "day" ASC;
 
 --------------------------------------------------------------------------------------------------------------------
-Question 6: Most expensive route *
-What's the pickup-dropoff pair with the largest average price for a ride (calculated based on total_amount)? 
-Enter two zone names separated by a slashFor example:"Jamaica Bay / Clinton East
-"If any of the zone names are unknown (missing), write "Unknown". For example, "Unknown / Clinton East".
+#Question 6: Most expensive route *
+#What's the pickup-dropoff pair with the largest average price for a ride (calculated based on total_amount)? 
+#Enter two zone names separated by a slashFor example:"Jamaica Bay / Clinton East
+#"If any of the zone names are unknown (missing), write "Unknown". For example, "Unknown / Clinton East".
 
-ANSWER = Alphabet City/Unknown
+#ANSWER = Alphabet City/Unknown
 
 # EXECUTED CODE
 SELECT 
