@@ -1,6 +1,6 @@
 # Question 1: What is the count of records in the model fact_trips after running all models with the test run variable disabled and filtering for 2019 and 2020 data only (pickup datetime) *
 
-SELECT * FROM 
+SELECT * FROM ny_taxi
 
 #Question 2: What is the distribution between service type filtering by years 2019 and 2020 data as done in the videos . (Yellow/Green) *
 
